@@ -1,0 +1,21 @@
+<%- include ("partials/header.ejs") %>
+
+<%- include ("partials/navbar.ejs") %>
+<div style="width: 60%; margin-left: 20%;">
+
+    <form method="post" action="/page4">
+        <div class="form-group">
+            <label>Page3</label>
+            <input type="text" name="page3" class="form-control" placeholder="Nome do Page2"><br>
+            <input type="text" name="index" class="form-control" value="<%-index%>"><br>
+            <input type="text" name="page1" class="form-control" value="<%-page1%>"><br>
+            <input type="text" name="page2" class="form-control" value="<%-page2%>"><br>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+</div>
+
+
+<%- include ("partials/footer.ejs") %>
