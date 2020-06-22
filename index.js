@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 
 
 
-
 app.use("/", curriculoController);
 
 
